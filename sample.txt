@@ -1,0 +1,11 @@
+Contact us at user@example.com or firstname.lastname@company.co.uk.
+Visit https://www.example.com or https://subdomain.example.org/page for info.
+Call (123) 456-7890, 123-456-7890 or 123.456.7890.
+Cards: 1234 5678 9012 3456 and 1234-5678-9012-3456.
+Meeting at 14:30, lunch at 2:30 PM.
+HTML: <p> <div class="example"> <img src="image.jpg" alt="description">
+Trending: #example #ThisIsAHashtag
+Prices: $19.99 and $1,234.56
+
+--- Invalid examples (should NOT match) ---
+bad@email, htp:/broken.com, 12-34-5678, 1234 5678 9012, 25:99, #123
