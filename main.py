@@ -32,10 +32,14 @@ if __name__ == "__main__":
     print("\nEnter your text. Type END on a new line when finished:")
     lines = []
     while True:
-        line = input()
+        try:
+            line = input()
+        except EOFError:
+            break
         if line.strip().upper() == "END":
             break
         lines.append(line)
+
     test_text = "\n".join(lines)
 
     results = extract_all(test_text)
